@@ -1,0 +1,8 @@
+database.driver=org.postgresql.Driver
+database.url=jdbc:postgresql://localhost:5432/Persons
+database.name=postgres
+database.password=qwerty123
+
+dao.user.class=dao.UsersDaoJDBCImpl
+dao.auto.class=dao.AutoDaoJDBCImpl
+service.class=service.UsersAndAutoServiceImpl
